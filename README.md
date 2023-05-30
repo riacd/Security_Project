@@ -83,7 +83,7 @@ streamlit run web/主页.py --browser.serverAddress "0.0.0.0"
 Dockerhub链接：https://hub.docker.com/u/yuntian1215
 
 ```sh
-docker run -p 8501:8501 -it myimage:v2 /bin/bash # 请根据自身映像名称运行docker
+docker run -p 8501:8501 -it yuntian1215/security:v1 /bin/bash # 请根据自身映像名称运行docker
 git pull # 配置镜像时，忽略了docker的一些特性，所以需要重新更新文档
 
 freshclam
