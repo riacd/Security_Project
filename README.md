@@ -80,7 +80,7 @@ streamlit run web/主页.py --browser.serverAddress "0.0.0.0"
 
 ## 使用Docker镜像
 
-Dockhub链接：https://hub.docker.com/u/yuntian1215
+Dockerhub链接：https://hub.docker.com/u/yuntian1215
 
 ```sh
 docker run -p 8501:8501 -it myimage:v2 /bin/bash # 请根据自身映像名称运行docker
