@@ -54,14 +54,14 @@ streamlit比Django简单很多，如果想要看可以直接百度搜，学起�
 Dockerfile build之后， 
 ```sh 
 docker build -t myimage:v1 . #Dockfile位于的文件目录下
-docker run -p 8501:8501 -it myimage:v1 /bin/bash # 映射端口，位为myimage下，tag为v1
+docker run -p 8501:8501 -it myimage:v1 /bin/bash # 映射端口 位为myimage下 tag为v1
 ```
 
 命令行输入以下命令：
 
 ```sh
 freshclam
-service clamav-daemon start & #必须后台启动守护进程
+service clamav-daemon start & #必须后台启动守护进程 sh可能丢失prompt 输入Enter即可
 
 cd Security_Project
 # Important message
@@ -84,10 +84,10 @@ Dockerhub链接：https://hub.docker.com/u/yuntian1215
 
 ```sh
 docker run -p 8501:8501 -it yuntian1215/security:v1 /bin/bash # 请根据自身映像名称运行docker
-git pull # 配置镜像时，忽略了docker的一些特性，所以需要重新更新文档
+git pull # 配置镜像时，忽略了docker的一些特性，需要重新更新文档
 
 freshclam
-service clamav-daemon start & #必须后台启动守护进程
+service clamav-daemon start & #必须后台启动守护进程 sh可能丢失prompt 输入Enter即可
 
 # Important message
 # 有可能streamlit与docker端口映射会出现问题
