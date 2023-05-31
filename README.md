@@ -88,6 +88,7 @@ git pull # 配置镜像时，忽略了docker的一些特性，需要重新更新
 
 freshclam
 service clamav-daemon start & #必须后台启动守护进程 sh可能丢失prompt 输入Enter即可
+cd Security_Project
 
 # Important message
 # 有可能streamlit与docker端口映射会出现问题
