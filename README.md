@@ -74,7 +74,7 @@ streamlit run web/主页.py
 streamlit run web/主页.py --browser.serverAddress "0.0.0.0"
 ```
 
-在外部主机localhost:8051(若运行第二个命令则输入http://0.0.0.0:8501)即可运行。
+在外部主机localhost:8051(若运行第二个命令则输入http://0.0.0.0:8501 )即可运行。
 
 友情提示：docker无图形化界面无法正常使用爬虫，所以我们的爬虫会给出warning信息，建议用户使用第二个按钮，并只支持Chrome版本！！！
 
@@ -99,6 +99,6 @@ streamlit run web/主页.py
 # 映射失败选择以下命令，并通过http://0.0.0.0:8501外部访问
 streamlit run web/主页.py --browser.serverAddress "0.0.0.0"
 ```
-在外部主机localhost:8051(若运行第二个命令则输入http://0.0.0.0:8501)即可运行。
+在外部主机localhost:8051(若运行第二个命令则输入http://0.0.0.0:8501 )即可运行。
 
 友情提示：docker无图形化界面无法正常使用爬虫，所以我们的爬虫会给出warning信息，建议用户使用第二个按钮，并只支持Chrome版本！！！
